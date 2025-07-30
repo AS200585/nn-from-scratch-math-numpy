@@ -2,6 +2,7 @@
 
 A from-scratch implementation of a 2-layer neural network for recognizing handwritten digits using the MNIST dataset following Samson Zhang's version. 
 
+
 **Overview**
 
 This neural network classifies handwritten digits (0-9) from 28x28 pixel grayscale images. The implementation includes:
@@ -12,11 +13,13 @@ This neural network classifies handwritten digits (0-9) from 28x28 pixel graysca
 - Training and validation accuracy tracking
 - Prediction visualization capabilities
 
+
 **Architecture**
 
 - Input Layer: 784 neurons (28×28 flattened pixels)
 - Hidden Layer: 256 neurons with ReLU activation
 - Output Layer: 10 neurons with softmax activation (one for each digit 0-9)
+
 
 **Key Functions**
 
@@ -38,9 +41,11 @@ Utility Functions:-
 4. make_predictions(): Generate predictions for new data
 5. test_predictions(): Visualize individual predictions
 
+
 **Performance**
 
 The model achieves approximately 86.3% accuracy on the validation set after 1,500 training iterations with a learning rate of 0.01.
+
 
 **Getting Started**
 
